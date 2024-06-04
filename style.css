@@ -1,3 +1,9 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .border{
     border: 4px solid black;
 }
@@ -7,10 +13,13 @@
     justify-content: space-between;
 }
 .margintop{
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 .aboutpadding{
-    padding: 0rem 5rem;
+    /* padding: 0rem 5rem; */
+}
+.marginbottom{
+    /* margin-bottom: 20rem; */
 }
 
 /* fonts */
@@ -153,4 +162,10 @@
     font-style: normal; */
   }
 /* fonts  end  */
+@media screen and (min-width: 641px){
+    /* .aboutmq{
+        margin: 0rem 1rem;
+    } */
+    
+}
   
